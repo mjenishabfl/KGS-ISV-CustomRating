@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aggregate_Result_Field__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This value is the API name of the field used for determining the rating values applied to the custom rating field specified in the object in the global settings above. Values in this field are used as-is if &quot;Use Rollup Batch for Rollup Field&quot; is unchecked in Global Settings.Or if that custom setting is checked this field is populated with values by an additional batch process in the application that runs first to set the values as per the logic in these Rollup Batch Settings.Can be a single std/Cust field</inlineHelpText>
+    <label>Aggregate Result Field</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

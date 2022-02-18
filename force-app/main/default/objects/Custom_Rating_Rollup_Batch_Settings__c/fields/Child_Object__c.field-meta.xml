@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Object__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This value is required if the rollup batch is active and is the API name of the object where Rollup values are pulled from. Can also be the same as the Parent Object or another standard or custom object related to the Parent Object. i.e. Opportunity or Project__c</inlineHelpText>
+    <label>Child Object</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

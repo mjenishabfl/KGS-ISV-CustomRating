@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_to_Aggregate__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This value is required if the rollup batch is active and is the field used in the batch process to calculate the rollup criteria. Currently, only Id for a count of child object records is supported with future releases expected to include sum or other functions for calculations of field values on child object records. Default and only currently permitted value for record count operation is: Id</inlineHelpText>
+    <label>Field to Aggregate</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

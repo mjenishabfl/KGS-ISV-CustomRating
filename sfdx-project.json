@@ -1,0 +1,42 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Custom Rating",
+            "versionName": "ver 1.3",
+            "versionNumber": "1.3.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "Custom Rating Package",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "KGS",
+    "namespace": "kgs",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "Custom Rating": "0Ho5e000000wkNtCAI",
+        "Custom Rating@0.1.0-1": "04t5e000000Nle1AAC",
+        "Custom Rating@0.1.0-2": "04t5e000000Nle6AAC",
+        "Custom Rating Package": "0Ho5e000000wkNyCAI",
+        "Custom Rating Package@0.1.0-1": "04t5e000000NleGAAS",
+        "Custom Rating Package@0.1.0-2": "04t5e000000NlepAAC",
+        "Custom Rating Package@0.1.0-3": "04t5e000000Nlg7AAC",
+        "Custom Rating Package@0.1.0-4": "04t5e000000NlgCAAS",
+        "Custom Rating Package@0.1.0-5": "04t5e000000NllNAAS",
+        "Custom Rating Package@0.1.0-6": "04t5e000000NlmkAAC",
+        "Custom Rating@1.0.0-1": "04t5e000000NlmpAAC",
+        "Custom Rating Package@0.1.0-7": "04t5e000000NlnEAAS",
+        "Custom Rating@1.0.0-2": "04t5e000000NlrgAAC",
+        "Custom Rating@1.0.0-3": "04t5e000000NltSAAS",
+        "Custom Rating@1.1.0-1": "04t5e000000NltXAAS",
+        "Custom Rating@1.2.0-1": "04t5e000000NlwRAAS",
+        "Custom Rating@1.2.0-2": "04t5e000000NlwWAAS",
+        "Custom Rating@1.3.0-1": "04t5e000000NlwbAAC"
+    }
+}

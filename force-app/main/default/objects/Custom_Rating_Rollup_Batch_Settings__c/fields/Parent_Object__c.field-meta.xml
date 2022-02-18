@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Object__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Value is the API name of the custom rating object specified in Global Settings the the primary batch process is updating the values and applying the rating per the logic specified in that custom settings. Can be a single standard or custom object. i.e. Account or Project__c</inlineHelpText>
+    <label>Parent Object</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

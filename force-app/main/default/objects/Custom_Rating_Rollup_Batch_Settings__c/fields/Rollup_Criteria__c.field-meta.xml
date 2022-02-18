@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rollup_Criteria__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This value is required if the rollup batch is active and is the SOQL query value limiting child object records used in the batch process to calculate the count of child object records to Rollup to the Aggregate Result Field. Use API Names of the field and the appropriate logical operators. i.e. CreatedDate = LAST_N_DAYS:90</inlineHelpText>
+    <label>Rollup Criteria</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
